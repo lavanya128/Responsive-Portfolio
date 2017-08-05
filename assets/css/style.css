@@ -239,8 +239,37 @@ input[type=submit] {
   border: 0 none;
 }
 
+@media screen and (max-width: 760px) {
+   
+.container{
+    width: 100%;
+    max-width: 720px;
+}
+
+.main-section{
+margin-left: 20px;
+    width: 100%;
+    max-width: 650px;
+    float: left;
+      }
+
+  .sidebar
+  {
+    width: 100%;
+    float: left;
+    margin-left: 20px;
+    max-width: 650px;
+  }
+
+}
+
 @media screen and (max-width:970px) 
 {
+.container{
+    width: 100%;
+    max-width: 950px;
+}
+
   .auth-image {
     width: 100%;
   }
@@ -268,17 +297,25 @@ nav{
 
 @media screen and (max-width: 640px) {
    
+.container{
+    width: 100%;
+    max-width: 580px;
+}
 .main-section
 {
   width: 100%;
-  max-width: 640px;
-left:0;
-right: 0;
+  max-width: 550px;
+margin-left: 30px;
+margin-right: 30px;
     }
 
 .sidebar
 {
   width: 100%;
+  max-width: 550px;
+  margin-left:30px;
+  margin-right: 30px;
+
     }
 
   #logo
@@ -310,20 +347,5 @@ padding-left: 19px;
 }
 
 
-@media screen and (max-width: 760px) {
-   
-.main-section{
-margin-left: 20px;
-    width: 100%;
-    float: left;
-      }
 
-  .sidebar
-  {
-    width: 100%;
-    float: left;
-    margin-left: 40px;
-  }
-
-}
 

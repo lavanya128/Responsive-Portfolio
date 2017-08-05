@@ -65,7 +65,7 @@ h3 {
 
 #logo {
   float: left;
-  width: 250px;
+  width: 330px;
   height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
@@ -75,6 +75,7 @@ h3 {
   text-align: center;
   text-decoration: none;
   background: #4aaaa5;
+  margin-left: 50px;
 }
 
 nav {
@@ -238,51 +239,91 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-width:940px) 
+@media screen and (max-width:970px) 
 {
+  .auth-image {
+    width: 100%;
+  }
 
-  .main-section{
+.work{
+  width: 100%;
+}
 
-    width: 70%;
+nav{
+  margin-right: 50px;
+}
+   .main-section{
+ margin-left: 70px;
+    width: 50%;
+
   }
 
   .sidebar
   {
-
-    width: 30%;
+ margin-right: 70px;
+    width: 50%;
   }
 }
 
-@media screen and (max-width: 740px) {
-   
-.main-section{
-
-    width: 100%;
-    max-width: 700px;
-  }
-
-  .sidebar
-  {
-    width: 100%;
-    float: left;
-  }
-
-}
 
 @media screen and (max-width: 640px) {
    
 .main-section
 {
   width: 100%;
-  float: left;
-  }
+  max-width: 640px;
+left:0;
+right: 0;
+    }
 
 .sidebar
 {
   width: 100%;
-  float: left;
+    }
+
+  #logo
+  {
+    width: 100%;
+    max-width: 640px;
+    margin-left: 0px;
+  }
+
+  nav{
+width: 100%;
+margin-top: 15px;
+margin-bottom: 15px;
+text-align: center;
+font-size: 25px;
+padding-left: 19px;
+
+  }
+  #main-container
+  {
+    padding-top: 200px;
+    
+  }
+
+  .auth-image 
+  {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 760px) {
+   
+.main-section{
+margin-left: 20px;
+    width: 100%;
+    float: left;
+      }
+
+  .sidebar
+  {
+    width: 100%;
+    float: left;
+    margin-left: 40px;
   }
 
 }
-
 
